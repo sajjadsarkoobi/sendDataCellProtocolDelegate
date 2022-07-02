@@ -22,6 +22,7 @@ class AViewController: UIViewController {
     }
     
     func configView() {
+        self.title = "A View Controller"
         self.textLabel.text = "A \(index)"
     }
 }

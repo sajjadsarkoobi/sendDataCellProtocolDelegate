@@ -75,16 +75,18 @@ extension ViewController: buttonCellTableViewCellDelegate {
     func buttonAClicked(data: Int) {
         print("A\(data)")
         DispatchQueue.main.async {
-            let controller = AViewController()
+            let controller = self.storyboard?.instantiateViewController(withIdentifier: "AViewController") as! AViewController
             controller.index = data
+            self.navigationController?.pushViewController(controller, animated: true)
         }
     }
     
     func buttonBClicked(data: Int) {
         print("B\(data)")
         DispatchQueue.main.async {
-            let controller = BViewController()
+            let controller = self.storyboard?.instantiateViewController(withIdentifier: "BViewController") as! BViewController
             controller.index = data
+            self.navigationController?.pushViewController(controller, animated: true)
         }
     }
 }

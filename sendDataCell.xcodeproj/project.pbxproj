@@ -107,16 +107,13 @@
 		5F0825F72870264B0098AF75 /* sendDataCell */ = {
 			isa = PBXGroup;
 			children = (
-				5F08262828702A460098AF75 /* Cell */,
+				5F082632287034E50098AF75 /* Controllers */,
+				5F082631287034D60098AF75 /* View */,
 				5F0825F82870264B0098AF75 /* AppDelegate.swift */,
 				5F0825FA2870264B0098AF75 /* SceneDelegate.swift */,
-				5F0825FC2870264B0098AF75 /* ViewController.swift */,
 				5F0825FE2870264B0098AF75 /* Main.storyboard */,
 				5F0826012870264C0098AF75 /* Assets.xcassets */,
-				5F0826032870264C0098AF75 /* LaunchScreen.storyboard */,
 				5F0826062870264C0098AF75 /* Info.plist */,
-				5F08262D28702F6F0098AF75 /* AViewController.swift */,
-				5F08262F28702F790098AF75 /* BViewController.swift */,
 			);
 			path = sendDataCell;
 			sourceTree = "<group>";
@@ -145,6 +142,25 @@
 				5F08262A28702A620098AF75 /* buttonCellTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		5F082631287034D60098AF75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F0826032870264C0098AF75 /* LaunchScreen.storyboard */,
+				5F08262828702A460098AF75 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F082632287034E50098AF75 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F0825FC2870264B0098AF75 /* ViewController.swift */,
+				5F08262D28702F6F0098AF75 /* AViewController.swift */,
+				5F08262F28702F790098AF75 /* BViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

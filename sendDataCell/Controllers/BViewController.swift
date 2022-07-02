@@ -21,6 +21,7 @@ class BViewController: UIViewController {
     }
     
     func configView() {
+        self.title = "B View Controller"
         self.textLabel.text = "B \(index)"
     }
 }
