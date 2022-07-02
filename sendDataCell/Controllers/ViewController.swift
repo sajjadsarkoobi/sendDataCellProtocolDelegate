@@ -65,6 +65,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             return UITableViewCell()
         }
         cell.index = indexPath.row
+        cell.indexLabel.text = "Index: \(indexPath.row)"
         cell.delegate = self
         cell.selectionStyle = .none
         return cell

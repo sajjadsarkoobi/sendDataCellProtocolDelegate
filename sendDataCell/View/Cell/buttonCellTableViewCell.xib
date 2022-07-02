@@ -46,16 +46,25 @@
                             </button>
                         </subviews>
                     </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Index" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RA2-Ra-kcB">
+                        <rect key="frame" x="164.5" y="47.5" width="41.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="8St-31-2gt" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="4GA-xM-yWV"/>
+                    <constraint firstItem="RA2-Ra-kcB" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="KgS-UM-Syf"/>
                     <constraint firstItem="8St-31-2gt" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="XIa-uH-u3L"/>
+                    <constraint firstItem="8St-31-2gt" firstAttribute="top" secondItem="RA2-Ra-kcB" secondAttribute="bottom" constant="8" symbolic="YES" id="bIq-Q2-6ol"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="buttonA" destination="cit-1Q-vyQ" id="Ev4-Et-z8n"/>
                 <outlet property="buttonB" destination="IeA-9P-hoS" id="Zbj-Op-zaA"/>
+                <outlet property="indexLabel" destination="RA2-Ra-kcB" id="bXa-td-kB8"/>
             </connections>
             <point key="canvasLocation" x="173.91304347826087" y="134.26339285714286"/>
         </tableViewCell>

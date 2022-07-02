@@ -25,6 +25,7 @@ class buttonCellTableViewCell: UITableViewCell {
     }
     
     //IBOutlets
+    @IBOutlet weak var indexLabel: UILabel!
     @IBOutlet weak var buttonA: UIButton!
     @IBAction func buttonAAction(_ sender: UIButton) {
         self.delegate?.buttonAClicked(data: index)
